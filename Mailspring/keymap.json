@@ -1,0 +1,19 @@
+{
+  "core:mark-as-read": "r",
+  "core:mark-as-unread": "u",
+  "core:reply": "shift+r",
+  "core:reply-all": "shift+a",
+  "core:forward": "shift+f",
+  "core:archive-item": "\\",
+  "core:delete-item": "del",
+  "core:remove-from-view": "backspace",
+  "core:gmail-remove-from-view": "backspace",
+  "core:star-item": "*",
+  "core:select-item": "e",
+  "multiselect-list:select-all": "mod+a",
+  "multiselect-list:deselect-all": "mod+d",
+  "thread-list:select-read": "mod+r",
+  "thread-list:select-unread": "mod+u",
+  "thread-list:select-starred": "mod+*",
+  "thread-list:select-unstarred": "mod+_"
+}
