@@ -1,0 +1,13 @@
+{
+  "name": "Vvamp-theme",
+  "title": "Vvamp's Theme",
+  "displayName": "Vvamp's Theme",
+  "theme": "ui",
+  "version": "0.1.0",
+  "description": "A great dark theme, created by Vvamp.",
+  "license": "GPL-3.0",
+  "engines": {
+    "mailspring": "*"
+  }
+}
+
