@@ -1,0 +1,332 @@
+{
+  "*": {
+    "env": "production",
+    "core": {
+      "themes": [
+        "ui-light"
+      ],
+      "disabledPackages": [
+        "message-view-on-github",
+        "personal-level-indicators",
+        "phishing-detection",
+        "nylas-private-salesforce",
+        "github-contact-card",
+        "keybase",
+        "composer-markdown",
+        "composer-scheduler",
+        "composer-mail-merge",
+        "send-and-archive",
+        "main-calendar"
+      ],
+      "workspace": {
+        "mode": "list",
+        "hiddenLocations": {
+          "MessageListSidebar": {
+            "id": "MessageListSidebar",
+            "Toolbar": {
+              "id": "MessageListSidebar:Toolbar"
+            }
+          }
+        }
+      },
+      "keymapTemplate": "Gmail",
+      "tutorial": {
+        "seen": [
+          "ThreadSearchBar",
+          "ActivityListButton",
+          "ModeToggle",
+          "ToolbarSnooze",
+          "LinkTrackingButton",
+          "OpenTrackingButton",
+          "SendLaterButton"
+        ]
+      },
+      "theme": "Vvamp-theme",
+      "translation": {
+        "disabled": [
+          "nl"
+        ],
+        "automatic": []
+      }
+    },
+    "identity": {
+      "id": "5ef66b9a-c75f-4bb4-b2f1-06ff450e94e0",
+      "firstName": "Vincent",
+      "lastName": "van Setten",
+      "emailAddress": "vvamp@vvampcorporations.com",
+      "object": "identity",
+      "createdAt": "2019-02-07T14:09:06.000Z",
+      "stripePlan": "Pro",
+      "stripePlanEffective": "Pro",
+      "stripeCustomerId": "cus_EUBwxkcmTAwxaR",
+      "stripePeriodEnd": "2020-02-05T08:07:16.000Z",
+      "featureUsage": {
+        "snooze": {
+          "quota": 99999,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "pro"
+        },
+        "send-later": {
+          "quota": 99999,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "pro"
+        },
+        "thread-sharing": {
+          "quota": 99999,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "pro"
+        },
+        "link-tracking": {
+          "quota": 99999,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "pro"
+        },
+        "open-tracking": {
+          "quota": 99999,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "pro"
+        },
+        "contact-profiles": {
+          "quota": 20,
+          "period": "weekly",
+          "usedInPeriod": 1,
+          "featureLimitName": "pro"
+        },
+        "send-reminders": {
+          "quota": 99999,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "pro"
+        },
+        "translation": {
+          "quota": 800,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "pro"
+        }
+      }
+    },
+    "accounts": [
+      {
+        "id": "eac402d5",
+        "metadata": [],
+        "name": "Vvamp",
+        "provider": "gmail",
+        "emailAddress": "vvampus@gmail.com",
+        "settings": {
+          "imap_host": "imap.gmail.com",
+          "imap_port": 993,
+          "imap_username": "vvampus@gmail.com",
+          "imap_security": "SSL / TLS",
+          "imap_allow_insecure_ssl": false,
+          "smtp_host": "smtp.gmail.com",
+          "smtp_port": 587,
+          "smtp_username": "vvampus@gmail.com",
+          "smtp_security": "STARTTLS",
+          "smtp_allow_insecure_ssl": false,
+          "refresh_client_id": "662287800555-0a5h4ii0e9hsbpq0mqtul7fja0jhf9uf.apps.googleusercontent.com"
+        },
+        "label": "vvampus@gmail.com",
+        "autoaddress": {
+          "type": "bcc",
+          "value": ""
+        },
+        "aliases": [],
+        "syncState": "ok",
+        "__cls": "Account"
+      },
+      {
+        "id": "4b9ca3a5",
+        "metadata": [],
+        "name": "Vincent van Setten",
+        "provider": "imap",
+        "emailAddress": "vvamp@vvampcorporations.com",
+        "settings": {
+          "imap_allow_insecure_ssl": false,
+          "imap_host": "imap.hostnet.nl",
+          "imap_port": 993,
+          "imap_security": "SSL / TLS",
+          "imap_username": "vvamp@vvampcorporations.com",
+          "smtp_allow_insecure_ssl": false,
+          "smtp_host": "smtp.hostnet.nl",
+          "smtp_port": 587,
+          "smtp_security": "STARTTLS",
+          "smtp_username": "vvamp@vvampcorporations.com"
+        },
+        "label": "vvamp@vvampcorporations.com",
+        "autoaddress": {
+          "type": "bcc",
+          "value": ""
+        },
+        "aliases": [],
+        "syncState": "ok",
+        "__cls": "Account"
+      },
+      {
+        "id": "4c21be9f",
+        "metadata": [],
+        "name": "Vvamp Vvamp",
+        "provider": "gmail",
+        "emailAddress": "vv4mp.iv@gmail.com",
+        "settings": {
+          "imap_host": "imap.gmail.com",
+          "imap_port": 993,
+          "imap_username": "vv4mp.iv@gmail.com",
+          "imap_security": "SSL / TLS",
+          "imap_allow_insecure_ssl": false,
+          "smtp_host": "smtp.gmail.com",
+          "smtp_port": 587,
+          "smtp_username": "vv4mp.iv@gmail.com",
+          "smtp_security": "STARTTLS",
+          "smtp_allow_insecure_ssl": false,
+          "refresh_client_id": "662287800555-0a5h4ii0e9hsbpq0mqtul7fja0jhf9uf.apps.googleusercontent.com"
+        },
+        "label": "vv4mp.iv@gmail.com",
+        "autoaddress": {
+          "type": "bcc",
+          "value": ""
+        },
+        "aliases": [],
+        "syncState": "ok",
+        "__cls": "Account"
+      },
+      {
+        "id": "f7b1546c",
+        "metadata": [],
+        "name": "Vincent van Setten",
+        "provider": "office365",
+        "emailAddress": "vincent.vansetten@student.hu.nl",
+        "settings": {
+          "imap_allow_insecure_ssl": false,
+          "imap_host": "outlook.office365.com",
+          "imap_port": 993,
+          "imap_security": "SSL / TLS",
+          "imap_username": "vincent.vansetten@student.hu.nl",
+          "smtp_allow_insecure_ssl": false,
+          "smtp_host": "smtp.office365.com",
+          "smtp_port": 587,
+          "smtp_security": "STARTTLS",
+          "smtp_username": "vincent.vansetten@student.hu.nl"
+        },
+        "label": "vincent.vansetten@student.hu.nl",
+        "autoaddress": {
+          "type": "bcc",
+          "value": ""
+        },
+        "aliases": [],
+        "syncState": "ok",
+        "__cls": "Account"
+      },
+      {
+        "id": "37ee2b83",
+        "metadata": [],
+        "name": "Vvs Nlgames",
+        "provider": "gmail",
+        "emailAddress": "vvsnlgames@gmail.com",
+        "settings": {
+          "imap_host": "imap.gmail.com",
+          "imap_port": 993,
+          "imap_username": "vvsnlgames@gmail.com",
+          "imap_security": "SSL / TLS",
+          "imap_allow_insecure_ssl": false,
+          "smtp_host": "smtp.gmail.com",
+          "smtp_port": 587,
+          "smtp_username": "vvsnlgames@gmail.com",
+          "smtp_security": "STARTTLS",
+          "smtp_allow_insecure_ssl": false,
+          "refresh_client_id": "662287800555-0a5h4ii0e9hsbpq0mqtul7fja0jhf9uf.apps.googleusercontent.com"
+        },
+        "label": "vvsnlgames@gmail.com",
+        "autoaddress": {
+          "type": "bcc",
+          "value": ""
+        },
+        "aliases": [],
+        "syncState": "ok",
+        "__cls": "Account"
+      },
+      {
+        "id": "56677fec",
+        "metadata": [],
+        "name": "Vvamp Vvamp",
+        "provider": "gmail",
+        "emailAddress": "vvampfb@gmail.com",
+        "settings": {
+          "imap_host": "imap.gmail.com",
+          "imap_port": 993,
+          "imap_username": "vvampfb@gmail.com",
+          "imap_security": "SSL / TLS",
+          "imap_allow_insecure_ssl": false,
+          "smtp_host": "smtp.gmail.com",
+          "smtp_port": 587,
+          "smtp_username": "vvampfb@gmail.com",
+          "smtp_security": "STARTTLS",
+          "smtp_allow_insecure_ssl": false,
+          "refresh_client_id": "662287800555-0a5h4ii0e9hsbpq0mqtul7fja0jhf9uf.apps.googleusercontent.com"
+        },
+        "label": "vvampfb@gmail.com",
+        "autoaddress": {
+          "type": "bcc",
+          "value": ""
+        },
+        "aliases": [],
+        "syncState": "ok",
+        "__cls": "Account"
+      }
+    ],
+    "accountsVersion": 6,
+    "plugins": {
+      "link-tracking": {
+        "defaultOn": false
+      },
+      "open-tracking": {
+        "defaultOn": false
+      }
+    },
+    "signatures": {
+      "initial": {
+        "id": "initial",
+        "title": "Default",
+        "body": "<div><div>Sent from <a href=\"https://getmailspring.com/\">Mailspring</a>, the best free email app for work</div></div>",
+        "data": {
+          "title": "Sent from Mailspring, the best free email app for work",
+          "templateName": "SignatureB"
+        }
+      },
+      "local-0961ccdc-a9aa": {
+        "id": "local-0961ccdc-a9aa",
+        "title": "Student",
+        "body": "<table cellPadding=\"0\" cellSpacing=\"0\"><tbody><tr><td style=\"vertical-align:top\"><img alt=\"\" src=\"https://user-generated.getmailspring.com/asset/NWVmNjZiOWEtYzc1Zi00YmI0LWIyZjEtMDZmZjQ1MGU5NGUwL3NpZy1sb2NhbC0wOTYxY2NkYy1hOWFhLnBuZw.png?t=1579362945118&amp;msw=200&amp;msh=200\" width=\"130\" height=\"130\" style=\"max-width:200px;max-height:130px;margin-right:20px\"/></td><td><div><strong>Vincent van Setten</strong><span style=\"color:#ff0000;padding-left:15px\">Student Technische Informatica</span></div><div style=\"font-size:0.9em;min-width:200px;max-width:400px;margin-top:4px;padding-top:4px\"><div><div><a style=\"color:#ff0000\" href=\"mailto:vvamp@vvampcorporations.com\">vvamp@vvampcorporations.com</a></div><div><span style=\"margin-right:8px\"><a style=\"color:#ff0000\" href=\"tel:06 44945378\">06 44945378</a></span></div><div><a style=\"color:#ff0000\" href=\"https://maps.google.com/?q=Utrecht\">Utrecht</a></div><div><a style=\"color:#ff0000\" href=\"http://vvampcorporations.com\">http://vvampcorporations.com</a></div><div><a href=\"https://www.facebook.com/vincent.vansetten\" title=\"Facebook\" style=\"margin-right:8px;color:#ff0000\"><img src=\"https://www.getmailspring.com/signature-assets/fb.gif\" width=\"13\" height=\"13\" alt=\"Facebook\"/></a><a href=\"https://www.linkedin.com/in/vincentvansetten/\" title=\"LinkedIn\" style=\"margin-right:8px;color:#ff0000\"><img src=\"https://www.getmailspring.com/signature-assets/linkedin.gif\" width=\"13\" height=\"13\" alt=\"LinkedIn\"/></a><a href=\"https://twitter.com/Vvamp_\" title=\"Twitter\" style=\"margin-right:8px;color:#ff0000\"><img src=\"https://www.getmailspring.com/signature-assets/twitter.gif\" width=\"13\" height=\"13\" alt=\"Twitter\"/></a><a href=\"https://www.instagram.com/vincentvansetten/\" title=\"Instagram\" style=\"margin-right:8px;color:#ff0000\"><img src=\"https://www.getmailspring.com/signature-assets/instagram.gif\" width=\"13\" height=\"13\" alt=\"Instagram\"/></a></div></div></div></td></tr></tbody></table>",
+        "data": {
+          "title": "Student Technische Informatica",
+          "templateName": "SignatureC",
+          "tintColor": "#ff0000",
+          "photoURL": "https://user-generated.getmailspring.com/asset/NWVmNjZiOWEtYzc1Zi00YmI0LWIyZjEtMDZmZjQ1MGU5NGUwL3NpZy1sb2NhbC0wOTYxY2NkYy1hOWFhLnBuZw.png?t=1579362945118&msw=200&msh=200",
+          "name": "Vincent van Setten",
+          "phone": "06 44945378",
+          "email": "vvamp@vvampcorporations.com",
+          "fax": "",
+          "address": "Utrecht",
+          "websiteURL": "vvampcorporations.com",
+          "facebookURL": "https://www.facebook.com/vincent.vansetten",
+          "twitterHandle": "https://twitter.com/Vvamp_",
+          "instagramURL": "https://www.instagram.com/vincentvansetten/",
+          "linkedinURL": "https://www.linkedin.com/in/vincentvansetten/"
+        }
+      }
+    },
+    "defaultSignatures": {
+      "vvampus@gmail.com": "local-0961ccdc-a9aa",
+      "vvamp@vvampcorporations.com": "local-0961ccdc-a9aa",
+      "vv4mp.iv@gmail.com": "local-0961ccdc-a9aa",
+      "vincent.vansetten@student.hu.nl": "local-0961ccdc-a9aa",
+      "vvsnlgames@gmail.com": "local-0961ccdc-a9aa",
+      "vvampfb@gmail.com": "local-0961ccdc-a9aa"
+    }
+  }
+}
